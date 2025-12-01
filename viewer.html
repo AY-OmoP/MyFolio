@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0a192f;
+            /* Dark background matching portfolio */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            pointer-events: none;
+            /* Disable pointer events on image */
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-user-drag: none;
+            user-drag: none;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            /* Sit on top of image */
+        }
+    </style>
+</head>
+
+<body>
+    <img id="cert-image" src="" alt="Certificate">
+    <div class="overlay"></div>
+
+    <script>
+        // Get image from query parameter
+        const params = new URLSearchParams(window.location.search);
+        const imgPath = params.get('img');
+        if (imgPath) {
+            document.getElementById('cert-image').src = imgPath;
+        }
+
+        // Disable context menu (Right Click)
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+    </script>
+</body>
+
+</html>

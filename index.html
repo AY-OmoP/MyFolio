@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of AyoTunde OmoPariola - Software Engineer specializing in Python, TypeScript, and AI solutions.">
+    <title>AyoTunde OmoPariola | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">AY-OmoP<span class="accent">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="name">AyoTunde OmoPariola</h1>
+            <h2 class="title">DApp-Engineer ⚙️⛓️</h2>
+            <p class="bio">Building decentralized applications and robust full-stack solutions. Passionate about
+                blockchain technology, smart contracts, and the future of the web.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary-btn">View Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="profile-container">
+                <div class="geo-shape sphere-1"></div>
+                <div class="geo-shape cube-1"></div>
+                <div class="geo-shape donut-1"></div>
+
+                <div class="code-wrapper">
+                    <img src="code_card.png" alt="Web3 Code" class="code-img">
+                </div>
+
+                <div class="photo-wrapper">
+                    <img src="profile_pic.jpg" alt="AyoTunde OmoPariola" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a dedicated <strong>Full Stack Developer and Web3 Specialist</strong> with a passion for
+                        building decentralized technologies. My expertise lies in bridging the gap between traditional
+                        web development and the blockchain ecosystem.</p>
+                    <p>With a strong foundation in <strong>Python, TypeScript, and Solidity</strong>, I create scalable
+                        web applications and secure smart contracts. I am constantly exploring new protocols and
+                        frameworks to deliver cutting-edge solutions.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-ethereum"></i>
+                        <h3>Web3 / Solidity</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-react"></i>
+                        <h3>React / Next.js</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-node-js"></i>
+                        <h3>Node.js</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>SQL / NoSQL</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code-branch"></i>
+                        <h3>Git / DevOps</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="education-certs-container" style="margin-top: 60px;">
+            <h3 class="section-title" style="font-size: 1.8rem; margin-bottom: 30px;">Education & Certifications</h3>
+
+            <div class="education-group" style="margin-bottom: 40px;">
+                <h4 style="color: var(--accent); margin-bottom: 20px;">Education</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">In Progress</div>
+                        <div class="timeline-content"
+                            style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <h3>BSc Data Science</h3>
+                                <p>Miva Open University</p>
+                            </div>
+                            <img src="miva_logo.png" alt="Miva Open University Logo" style="width: 60px; height: auto;">
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Graduated</div>
+                        <div class="timeline-content"
+                            style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <h3>BBA in AI & Automation</h3>
+                                <p>Nexford University</p>
+                            </div>
+                            <img src="nexford_logo.png" alt="Nexford University Logo"
+                                style="width: 60px; height: auto;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certs-group">
+                <h4 style="color: var(--accent); margin-bottom: 20px;">Licenses & Certifications</h4>
+                <div class="cert-grid">
+                    <!-- Oracle Data Science -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><img src="oracle_logo.png" alt="Oracle Logo"></div>
+                        <div class="cert-info">
+                            <h3>Certified Oracle® Data Science Professional</h3>
+                            <p>Oracle</p>
+                            <span class="cert-date">Issued Jun 2025</span>
+                        </div>
+                        <a href="#" onclick="openCredential(event, 'oracle_data_science_cert.png', 'image')"
+                            class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <!-- Oracle Cloud App -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><img src="oracle_logo.png" alt="Oracle Logo"></div>
+                        <div class="cert-info">
+                            <h3>Oracle Cloud Application Foundation Certified Implementation Specialist</h3>
+                            <p>Oracle</p>
+                            <span class="cert-date">Issued Jul 2025</span>
+                        </div>
+                        <a href="#" onclick="openCredential(event, 'oracle_cloud_cert.png', 'image')"
+                            class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <!-- Oracle OCI -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><img src="oracle_logo.png" alt="Oracle Logo"></div>
+                        <div class="cert-info">
+                            <h3>Oracle, OCI</h3>
+                            <p>Oracle</p>
+                            <span class="cert-date">Issued Jul 2025</span>
+                        </div>
+                        <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=FFB470938971E41B957F96D1E3D359BF4E7F9D60091ABE3FE7A5605D8F3F4D65"
+                            target="_blank" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <!-- Microsoft Azure -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-brands fa-microsoft"></i></div>
+                        <div class="cert-info">
+                            <h3>Certified Microsoft® Azure Professional</h3>
+                            <p>Microsoft</p>
+                        </div>
+                    </div>
+                    <!-- NVIDIA -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <div class="cert-info">
+                            <h3>Building LLM Applications With Prompt Engineering</h3>
+                            <p>NVIDIA</p>
+                            <span class="cert-date">Issued Aug 2025</span>
+                        </div>
+                    </div>
+                    <!-- Generative AI -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+                        <div class="cert-info">
+                            <h3>Generative AI with LLMs</h3>
+                            <p>PM-tutor</p>
+                            <span class="cert-date">Issued Apr 2025</span>
+                        </div>
+                    </div>
+                    <!-- Blockchain -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-brands fa-bitcoin"></i></div>
+                        <div class="cert-info">
+                            <h3>Blockchain Basics</h3>
+                            <p>Cyfrin Updraft</p>
+                            <span class="cert-date">Issued Sep 2025</span>
+                        </div>
+                    </div>
+                    <!-- Asana -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><img src="asana_logo.png" alt="Asana Logo"></div>
+                        <div class="cert-info">
+                            <h3>Certified Asana® Workflow Specialist</h3>
+                            <p>Asana</p>
+                        </div>
+                    </div>
+                    <!-- NYSC -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><img src="nysc_logo.png" alt="NYSC Logo"></div>
+                        <div class="cert-info">
+                            <h3>Certificate of Exemption NYSC</h3>
+                            <p>National Youth Service Corps</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="badge-wallet-group" style="margin-top: 40px;">
+                <h4 style="color: var(--accent); margin-bottom: 20px;">Badge Wallet</h4>
+                <div class="cert-grid">
+                    <!-- Credly -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><img src="credly_logo.png" alt="Credly Logo"></div>
+                        <div class="cert-info">
+                            <h3>Credly Profile</h3>
+                            <p>Verified Badges</p>
+                        </div>
+                        <a href="https://www.credly.com/users/ay-omop"
+                            onclick="openCredential(event, this.href, 'popup')" class="cert-link"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <!-- Nexford eBadges -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><img src="parchment_logo.png" alt="Parchment Logo"></div>
+                        <div class="cert-info">
+                            <h3>Nexford eBadges</h3>
+                            <p>Verified Badges</p>
+                        </div>
+                        <a href="https://badges.parchment.com/public/collections/6ef4eedf0ec643e9a02bb152aa8c18c2"
+                            onclick="openCredential(event, this.href, 'popup')" class="cert-link"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/AY-OmoP/CVibe" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">CVibe</h3>
+                        <p class="project-desc">A Python-based CV analyzer that helps users optimize their resumes for
+                            job applications, providing intelligent suggestions.</p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>NLP</li>
+                            <li>Data Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/AY-OmoP/AjoCircle" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="https://ay-omop.github.io/AjoCircle/"
+                                    onclick="openCredential(event, this.href)" class="external-link"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">AjoCircle</h3>
+                        <p class="project-desc">A digital Ajo/Esusu savings system built with TypeScript, modernizing
+                            traditional cooperative savings.</p>
+                        <ul class="project-tech">
+                            <li>TypeScript</li>
+                            <li>Fintech</li>
+                            <li>Web App</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/AY-OmoP/CrewAI-Prediction" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">CrewAI Prediction</h3>
+                        <p class="project-desc">An AI prediction project leveraging CrewAI agents to perform complex
+                            forecasting tasks.</p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>CrewAI</li>
+                            <li>Machine Learning</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/AY-OmoP/portfolio-sentinel-bot" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="https://t.me/PortfolioSentinelBot"
+                                    onclick="openCredential(event, this.href, 'popup')" class="external-link"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Portfolio Sentinel Bot</h3>
+                        <p class="project-desc">A Telegram bot designed to monitor and report on crypto portfolios in
+                            real-time.</p>
+                        <ul class="project-tech">
+                            <li>JavaScript</li>
+                            <li>Telegram API</li>
+                            <li>Bot</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">I'm currently open to new opportunities and collaborations. Whether you have a
+                question or just want to say hi, feel free to reach out!</p>
+            <div class="contact-links">
+                <a href="mailto:ayonioo@yahoo.com" class="btn primary-btn">Say Hello</a>
+                <div class="socials">
+                    <a href="https://github.com/AY-OmoP" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ayotunde-omopariola" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/+2348059686329" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://x.com/AY2unde" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed & Built by AyoTunde OmoPariola</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="credential-modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <iframe class="modal-iframe" id="credential-frame" src=""></iframe>
+            <div id="image-wrapper"
+                style="display: none; width: 100%; height: 100%; position: relative; justify-content: center; align-items: center;">
+                <img id="credential-image" class="modal-image protected-image" src="" alt="Certificate">
+                <div class="protection-overlay"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
